@@ -73,7 +73,8 @@ public class NewArrivalTest extends BaseTestConnect {
         newArrivalFiltersPage.ClickOnCheckoutNowButton();
         sf.assertEquals(cartPage.VerifyCartText(), "CART", "Cart text should be matched");
         sf.assertAll();
-        sf.assertEquals(cartPage.VerifyCartText(), "CART", "Cart text should be matched");
+
+
     }
 }
 
