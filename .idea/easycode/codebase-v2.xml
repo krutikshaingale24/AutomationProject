@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.obiscr.chatgpt.settings.EasyCodeState">
+    <option name="projectFiles" value="$PROJECT_DIR$/src/main/java/config/PropertyReader.java;C:/Users/acer/IdeaProjects/Live Automation Project/src/main/java/constant/BrowserType.java;C:/Users/acer/IdeaProjects/Live Automation Project/src/main/java/Pages/HomePage.java;C:/Users/acer/IdeaProjects/Live Automation Project/src/main/java/Pages/LoginPage.java;C:/Users/acer/IdeaProjects/Live Automation Project/src/main/java/testBase/WebTestBase.java;C:/Users/acer/IdeaProjects/Live Automation Project/src/main/java/utils/ActionUtility.java;C:/Users/acer/IdeaProjects/Live Automation Project/src/main/java/utils/DropdownUtility.java;C:/Users/acer/IdeaProjects/Live Automation Project/src/main/java/utils/waitUtility.java;C:/Users/acer/IdeaProjects/Live Automation Project/src/test/java/Basetest/BaseTestConnect.java;C:/Users/acer/IdeaProjects/Live Automation Project/src/test/java/testcases/HomeTest.java;C:/Users/acer/IdeaProjects/Live Automation Project/src/test/java/testcases/LoginTest.java" />
+  </component>
+</project>
