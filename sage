@@ -1,0 +1,16 @@
+[1mdiff --git a/src/test/java/testcases/NewArrivalTest.java b/src/test/java/testcases/NewArrivalTest.java[m
+[1mindex 0dd2e5d..2d591d3 100644[m
+[1m--- a/src/test/java/testcases/NewArrivalTest.java[m
+[1m+++ b/src/test/java/testcases/NewArrivalTest.java[m
+[36m@@ -74,11 +74,5 @@[m [mpublic class NewArrivalTest extends BaseTestConnect {[m
+         sf.assertEquals(cartPage.VerifyCartText(), "CART", "Cart text should be matched");[m
+         sf.assertAll();[m
+     }[m
+[31m-    @Test(description = " Page")[m
+[31m-    public void AAddFilterInArrivalPage() throws InterruptedException {[m
+[31m-        SoftAssert sf = new SoftAssert();[m
+[31m-        homePage.clickAddOnCookie();[m
+[31m-        homePage.clickOnUserLogo();[m
+[31m-    }[m
+ }[m
+ [m

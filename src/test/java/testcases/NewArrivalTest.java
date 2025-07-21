@@ -73,12 +73,7 @@ public class NewArrivalTest extends BaseTestConnect {
         newArrivalFiltersPage.ClickOnCheckoutNowButton();
         sf.assertEquals(cartPage.VerifyCartText(), "CART", "Cart text should be matched");
         sf.assertAll();
-    }
-    @Test(description = " Page")
-    public void AAddFilterInArrivalPage() throws InterruptedException {
-        SoftAssert sf = new SoftAssert();
-        homePage.clickAddOnCookie();
-        homePage.clickOnUserLogo();
+        sf.assertEquals(cartPage.VerifyCartText(), "CART", "Cart text should be matched");
     }
 }
 
