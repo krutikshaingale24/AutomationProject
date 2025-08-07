@@ -19,4 +19,10 @@ public class Campos2025Test extends BaseTestConnect {
         campos2025.switchToOriginalWindow();//
        sf.assertEquals(campos2025.VerifyText(), "BEST SELLERS", "BEST SELLERS text should be matched");
     }
+    @Test(description = "Verify New Window")
+    public void NewM() throws InterruptedException {
+        SoftAssert sf = new SoftAssert();
+        homePage.clickAddOnCookie();
+        campos2025.clickOnEnterButton();
+    }
 }
